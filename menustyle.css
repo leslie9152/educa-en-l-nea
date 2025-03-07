@@ -1,0 +1,38 @@
+.menu-horizontal ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Color de fondo */
+    overflow: hidden; /* Limpia floats */
+}
+
+.menu-horizontal li {
+    float: left; /* Coloca los ítems en línea horizontal */
+}
+
+.menu-horizontal li a {
+    display: block; /* Permite definir ancho y alto */
+    color: white; /* Color del texto */
+    text-align: center; /* Centra el texto */
+    padding: 14px 16px; /* Espaciado interno */
+    text-decoration: none; /* Elimina el subrayado */
+}
+
+.menu-horizontal li a:hover {
+    background-color: #111; /* Color al pasar el ratón */
+}
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block; /* Importante para el centrado */
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px; /* Espacio entre los elementos */
+}
